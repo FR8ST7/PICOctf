@@ -1,0 +1,28 @@
+picoctf
+
+verify task:
+-to check inside files: ls files
+-to decrypt: decrypt files/filename
+-to decrypt all: for i in $(find files); do ./decrypt.sh $i; done
+                 for i in $(find files); do ./decrypt.sh $i | grep pico; done
+                 
+HEAP 0 
+the size of address 32 bits 
+so write the no. greater than 32 bits
+
+format string 0
+
+
+SSH
+https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server
+
+web exploit
+https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')&input=Y29tcHV0ZXI
+-check its js codes or elements
+
+unminify
+-use ctrl+u to see the web code
+
+polyglot
+-try to open the file using different applications
+-for ubuntu open it in image magick ,you'll get 1 code merge it with the code u get after opening the pdf.
