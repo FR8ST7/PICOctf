@@ -26,3 +26,12 @@ unminify
 polyglot
 -try to open the file using different applications
 -for ubuntu open it in image magick ,you'll get 1 code merge it with the code u get after opening the pdf.
+
+endian
+-convert string to ascii then to little endian and big endian
+
+commitment issues
+-unhide the git file as:ls -la to see hide files
+-then mv .git git to unhide the file
+-then go into the log dir to see the commited msg 
+-use "git show <commit msg>"
